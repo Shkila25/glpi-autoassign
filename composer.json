@@ -1,9 +1,8 @@
 {
   "name": "shkila25/glpi-autoassign",
-  "description": "Automatic technician assignment for GLPI 12",
-  "type": "glpi-plugin",
+  "description": "Automatic technician assignment plugin for GLPI 12",
+  "type": "project",
   "license": "GPL-3.0-or-later",
-  "require": {
-    "php": ">=8.2"
-  }
+  "autoload": {"psr-4": {"GlpiPlugin\\Glpiautoassign\\": "src/"}},
+  "require": {"php": ">=8.2"}
 }
